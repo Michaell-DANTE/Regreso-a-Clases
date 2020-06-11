@@ -1,0 +1,110 @@
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+
+}
+
+body
+{
+
+    background: white;
+    flex-wrap: wrap;
+    
+
+}
+
+.contenedorGneral
+{
+
+    margin-left: 25%;
+    margin-top: 15%;
+
+
+}
+
+@media screen and (min-width: 740px)
+{
+
+    .contenedorSeleccion
+    {
+
+        margin-left: 20%;
+        margin-top: 20%;
+
+    }
+
+
+
+}
+
+
+
+
+input .entrada
+{
+
+    width: 21%;
+    display: inline-block;
+
+
+}
+
+
+.entrada
+{
+
+    padding: 0.5%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    border: 0;
+    border-radius: 5px;
+    transition: all 200ms;
+    border-bottom: 1px black solid;
+    
+    
+
+}
+
+.entrada:hover
+{
+    
+    transform: translatey(1px);
+    box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+
+
+}
+
+.BotonIngreso
+{
+
+    width: 120px;
+    display: inline-block;
+    background: linear-gradient(50deg, rgb(17, 29, 206), rgb(142, 10, 168));
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 3%;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: all 300ms;
+    margin-top: 3%;
+    
+
+}
+
+
+.BotonIngreso:hover
+{
+
+    transform: translatey(10px);
+    box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+
+}

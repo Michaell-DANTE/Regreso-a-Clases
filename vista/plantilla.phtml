@@ -8,17 +8,25 @@
 </head>
 <body>
 
+
+
     <div class="contenedorGneral">
 
-        <form action="../controlador/entrada.php" method="post">
-        
-            <input name="usuario" id="cuadro_1" type="text" placeholder="Usuario" require><br><br>
+        <div class="contenedorSeleccion">
 
-            <input name="contraseña" id="cuadro_2" type="password" placeholder="Contraseña" require><br><br>
+            <form action="../controlador/entrada.php" method="post">
+            
+                <input name="usuario" class="entrada" id="cuadro_1" type="text" placeholder="Usuario" require><br><br><br>
 
-            <input name="enviar" id="boton" type="submit" value="Enviar">
-        
-        </form>
+                <input name="contraseña" class="entrada" id="cuadro_2" type="password" placeholder="Contraseña" require><br><br><br>
+
+                <input name="enviar" class="BotonIngreso" id="boton" type="submit" value="Enviar">
+            
+            </form>
+
+        </div>
+
+
 
     </div>
 
