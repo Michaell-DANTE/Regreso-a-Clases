@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <form action="">
+    <form action="../controlador/entrada.php" method="post">
     
         <input name="usuario" id="cuadro_1" type="text" placeholder="Usuario" require>
 
@@ -16,6 +16,12 @@
         <input name="enviar" id="boton" type="submit" value="Enviar">
     
     </form>
+
+    <?php
+
+        require_once($contenido);
+
+    ?>
     
 </body>
 </html>
