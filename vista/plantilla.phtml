@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <form action="../controlador/entrada.php" method="post">
-    
-        <input name="usuario" id="cuadro_1" type="text" placeholder="Usuario" require>
+    <div class="contenedorGneral">
 
-        <input name="contraseña" id="cuadro_2" type="password" placeholder="Contraseña" require>
+        <form action="../controlador/entrada.php" method="post">
+        
+            <input name="usuario" id="cuadro_1" type="text" placeholder="Usuario" require><br><br>
 
-        <input name="enviar" id="boton" type="submit" value="Enviar">
-    
-    </form>
+            <input name="contraseña" id="cuadro_2" type="password" placeholder="Contraseña" require><br><br>
+
+            <input name="enviar" id="boton" type="submit" value="Enviar">
+        
+        </form>
+
+    </div>
+
+
 
     <?php
 
